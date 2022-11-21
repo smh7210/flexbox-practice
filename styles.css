@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    height: 1.625rem;
+    width: 7.875rem;
+}
+
+.navbar {
+    background-color: #000;
+    
+}
+
+.navbar .container {
+    display: flex;
+    min-height: 88px;
+    width: 100%;
+    max-width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-secondary {
+    background: #191a1b;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px 22px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #4C5FD5;
+    color: #fff;
+    border-color: #4C5FD5;
+    border-radius: 5px;
+    padding: 6px 22px;
+}
