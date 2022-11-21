@@ -22,12 +22,14 @@ a {
 
 .navbar {
     background-color: #000;
-    
+    display: flex;
+    justify-content: center;
+    min-height: 88px;
+
 }
 
 .navbar .container {
     display: flex;
-    min-height: 88px;
     width: 100%;
     max-width: 90%;
     justify-content: space-between;
@@ -38,6 +40,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar .container .brand .border {
+    border-left: solid #fff 2px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .btn-secondary {
@@ -54,4 +62,24 @@ a {
     border-color: #4C5FD5;
     border-radius: 5px;
     padding: 6px 22px;
+    margin-left: 10px;
+}
+
+.features {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .items {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.features .features-item {
+    height: 100px;
+    width: 100px;
+    background-color: #000;
 }
